@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .body {
+    background-color: #efeef3;
+  }
+  
+  .cont_nav {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .nav_mulheres {
+    display: block;
+    width: 100%;
+  }
+  @media (max-width: 500px) {
+    .nav_mulheres {
+      display: none;
+    }
+  }
+  
+  .element_nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: fixed;
+    background-color: #efeef3;
+    width: 100%;
+    padding: 0px 20px 12px 0px;
+  }
+  @media (max-width: 500px) {
+    .element_nav {
+      flex-direction: column;
+      position: relative;
+    }
+  }
+  
+  .nav_link {
+    display: inline-flex;
+    list-style: none;
+    width: 100%;
+    justify-content: flex-end;
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  @media (max-width: 500px) {
+    .nav_link {
+      flex-direction: column;
+      margin: 20px;
+      font-family: "Kodchasan", sans-serif;
+      font-weight: 200;
+      font-style: normal;
+    }
+  }
+  
+  .nav_link li {
+    margin-right: 30px;
+  }
+  @media (max-width: 500px) {
+    .nav_link li {
+      flex-direction: column;
+      margin: 20px;
+      text-align: center;
+    }
+  }
+  
+  .nav_link a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .cont_2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  @media (max-width: 500px) {
+    .cont_2 {
+      display: flex;
+      flex-direction: column;
+      margin: 20px;
+    }
+  }
+  
+  .div_cont2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+  }
+  @media (max-width: 500px) {
+    .div_cont2 {
+      align-items: center;
+      margin: 20px;
+    }
+  }
+  
+  .text_1 {
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 170px;
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  .text_1 .text_p {
+    margin: 20px;
+  }
+  @media (max-width: 500px) {
+    .text_1 {
+      text-align: center;
+      justify-content: space-evenly;
+      margin: 10px;
+      margin-top: 30px;
+      text-align: center;
+    }
+    .text_1 .text_p {
+      margin-top: 40px;
+    }
+  }
+  
+  .text_2 {
+    display: flex;
+    text-align: left;
+    margin-left: 50px;
+    padding: 60px;
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  @media (max-width: 500px) {
+    .text_2 {
+      text-align: center;
+      padding: 10px;
+    }
+  }
+  
+  .div_img {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px;
+  }
+  @media (max-width: 500px) {
+    .div_img {
+      flex-wrap: wrap;
+      width: 60%;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row;
+      margin-top: 10px;
+    }
+  } /*# sourceMappingURL=style.css.map */
+  
